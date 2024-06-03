@@ -96,6 +96,12 @@ body {
 }
 
 .barbershop-rating {
+    margin-top: 35px;
     font-size: 18px;
-    color: #ffd700;
+    color: #5CB299;
+}
+
+.filter {
+    background-color: #5CB299;
+    color: #fff;
 }
