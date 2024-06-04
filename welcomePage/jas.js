@@ -1,3 +1,4 @@
+// jas.js
 document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('searchBar');
     const barbershopList = document.getElementById('barbershopList');

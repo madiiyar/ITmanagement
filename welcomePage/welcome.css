@@ -1,3 +1,5 @@
+/* welcome.css */
+
 * {
   margin: 0;
   padding: 0;
@@ -38,18 +40,17 @@ body {
 
 .filter-container {
   display: flex;
-  gap: 20px;
-  padding: 10px 20px;
+  justify-content: space-around;
+  padding: 10px;
   border-bottom: 1px solid #ddd;
 }
 
 .filter {
-  background-color: #5cb299;
+  background-color: #eee;
   border: none;
   border-radius: 20px;
   padding: 5px 15px;
   cursor: pointer;
-  color: white;
 }
 
 .barbershop-list {
@@ -80,16 +81,15 @@ body {
 .barbershop-details h2 {
   font-size: 16px;
   margin-bottom: 5px;
-  color: #5cb299;
 }
 
 .barbershop-details p {
   font-size: 14px;
-  color: rgba(149, 174, 167, 0.95);
+  color: #666;
 }
 
 .barbershop-rating {
   margin-top: 35px;
   font-size: 18px;
-  color: #5cb299;
+  color: #ffd700;
 }
