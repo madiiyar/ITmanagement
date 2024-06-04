@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbershop Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Barbershop Arin 38#</h1>
+      <form action="submit.php" method="POST">
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Available Time:</label>
+        <select id="time" name="time" required>
+          <option value="09:00 AM">09:00 AM</option>
+          <option value="09:30 AM">09:30 AM</option>
+          <option value="10:00 AM">10:00 AM</option>
+          <option value="10:30 AM">10:30 AM</option>
+        </select>
+
+        <label for="number">Number:</label>
+        <input type="text" id="number" name="number" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required />
+
+        <label for="gender">Gender:</label>
+        <div>
+          <input type="radio" id="male" name="gender" value="Male" required />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female"
+            required
+          />
+          <label for="female">Female</label>
+        </div>
+
+        <label for="description">Describe your haircut:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <button type="submit">Book a Haircut</button>
+      </form>
+    </div>
+  </body>
+</html>
