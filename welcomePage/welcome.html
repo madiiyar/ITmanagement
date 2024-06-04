@@ -1,85 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="welcome.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <div class="search-container">
-        <input type="text" placeholder="Search Barbershop" class="search-bar" />
-        <button class="filter-button">Filters</button>
-      </div>
-      <div class="filter-container">
-        <button class="filter">Taraz</button>
-        <button class="filter">4 ★</button>
-      </div>
-      <div class="barbershop-list">
-        <div class="barbershop-item">
-          <img
-            src="barbershop.png"
-            alt="Barbershop Logo"
-            class="barbershop-logo"
-          />
-          <div class="barbershop-details">
-            <h2>Barbershop Arin 38#</h2>
-            <p>Sulaimanova 19a</p>
-            <p>Available: 9:00-22:00</p>
-          </div>
-          <div class="barbershop-rating">
-            <span>★★★★★</span>
-          </div>
+        <div class="filter-container">
+            <button class="filter">Taraz</button>
+            <button class="filter">4 ★</button>
         </div>
-        <div class="barbershop-item">
-          <img
-            src="barbershop.png"
-            alt="Barbershop Logo"
-            class="barbershop-logo"
-          />
-          <div class="barbershop-details">
-            <h2>Barbershop Arin 38#</h2>
-            <p>Sulaimanova 19a</p>
-            <p>Available: 9:00-22:00</p>
-          </div>
-          <div class="barbershop-rating">
-            <span>★★★★★</span>
-          </div>
+        <div class="barbershop-list" id="barbershopList">
+            <div class="barbershop-item">
+                <img src="../assets/barber.jpg" alt="Barbershop Logo" class="barbershop-logo" />
+                <div class="barbershop-details">
+                    <h2 class="barbershop-name">Barbershop Arin 38#</h2>
+                    <p>Sulaimanova 19a</p>
+                    <p>Available: 9:00-22:00</p>
+                </div>
+                <div class="barbershop-rating">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+            <div class="barbershop-item">
+                <img src="../assets/barber.jpg" alt="Barbershop Logo" class="barbershop-logo" />
+                <div class="barbershop-details">
+                    <h2 class="barbershop-name">Barbershop Bella</h2>
+                    <p>Main Street 10</p>
+                    <p>Available: 10:00-20:00</p>
+                </div>
+                <div class="barbershop-rating">
+                    <span>★★★★</span>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="barbershop-item">
+                <img src="../assets/barber.jpg" alt="Barbershop Logo" class="barbershop-logo" />
+                <div class="barbershop-details">
+                    <h2 class="barbershop-name">Nurdaulet shashtaraz</h2>
+                    <p>Sulaimanova 19a</p>
+                    <p>Available: 9:00-22:00</p>
+                </div>
+                <div class="barbershop-rating">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+
+            <div class="barbershop-item">
+                <img src="../assets/barber.jpg" alt="Barbershop Logo" class="barbershop-logo" />
+                <div class="barbershop-details">
+                    <h2 class="barbershop-name">Dimon</h2>
+                    <p>Sulaimanova 19a</p>
+                    <p>Available: 9:00-22:00</p>
+                </div>
+                <div class="barbershop-rating">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+
+            <div class="barbershop-item">
+                <img src="../assets/barber.jpg" alt="Barbershop Logo" class="barbershop-logo" />
+                <div class="barbershop-details">
+                    <h2 class="barbershop-name">Erkebulandau</h2>
+                    <p>Sulaimanova 19a</p>
+                    <p>Available: 9:00-22:00</p>
+                </div>
+                <div class="barbershop-rating">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+            <!-- Repeat the barbershop-item block for more items -->
         </div>
-        <div class="barbershop-item">
-          <img
-            src="barbershop.png"
-            alt="Barbershop Logo"
-            class="barbershop-logo"
-          />
-          <div class="barbershop-details">
-            <h2>Barbershop Arin 38#</h2>
-            <p>Sulaimanova 19a</p>
-            <p>Available: 9:00-22:00</p>
-          </div>
-          <div class="barbershop-rating">
-            <span>★★★★★</span>
-          </div>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search Barbershop" class="search-bar" />
         </div>
-        <div class="barbershop-item">
-          <img
-            src="barbershop.png"
-            alt="Barbershop Logo"
-            class="barbershop-logo"
-          />
-          <div class="barbershop-details">
-            <h2>Barbershop Arin 38#</h2>
-            <p>Sulaimanova 19a</p>
-            <p>Available: 9:00-22:00</p>
-          </div>
-          <div class="barbershop-rating">
-            <span>★★★★★</span>
-          </div>
-        </div>
-        <!-- Repeat the barbershop-item block for more items -->
-      </div>
     </div>
-  </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
