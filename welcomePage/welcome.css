@@ -1,3 +1,5 @@
+/* welcome.css */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .search-container {
@@ -27,6 +32,7 @@ body {
     align-items: center;
     padding: 10px;
     border-top: 1px solid #ddd;
+    background-color: white;
 }
 
 .search-bar {
@@ -36,23 +42,10 @@ body {
     border-radius: 5px;
 }
 
-.filter-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-.filter {
-    background-color: #eee;
-    border: none;
-    border-radius: 20px;
-    padding: 5px 15px;
-    cursor: pointer;
-}
-
 .barbershop-list {
     padding: 10px;
+    flex: 1;
+    overflow-y: auto;
 }
 
 .barbershop-item {
@@ -63,6 +56,7 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .barbershop-logo {
@@ -70,6 +64,7 @@ body {
     height: 50px;
     border-radius: 10px;
     margin-right: 10px;
+    border: 2px solid #fff;
 }
 
 .barbershop-details {
@@ -79,15 +74,33 @@ body {
 .barbershop-details h2 {
     font-size: 16px;
     margin-bottom: 5px;
+    color: #5CB299;
 }
 
 .barbershop-details p {
     font-size: 14px;
-    color: #666;
+    color: #5CB299;
 }
 
 .barbershop-rating {
     margin-top: 35px;
     font-size: 18px;
-    color: #ffd700;
+    color: #5CB299;
+}
+
+
+/* New button style */
+
+.filter {
+    background-color: #5CB299;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter:hover {
+    background-color: #499680;
 }
